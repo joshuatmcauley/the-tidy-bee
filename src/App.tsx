@@ -1,4 +1,5 @@
 import { useLayoutEffect, useRef, useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import gsap from 'gsap'
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -416,6 +417,7 @@ export default function App() {
         <p className="script">The Tidy Bee</p>
         <p>Clean homes · Happy spaces · Happy you</p>
       </footer>
+      <Analytics />
     </div>
   )
 }
