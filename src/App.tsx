@@ -280,7 +280,6 @@ export default function App() {
           <div className="hero-visual">
             <img className="hero-logo" src={brand('logo.jpg')} alt="The Tidy Bee logo" />
             <Bee className="hero-bee" title="The Tidy Bee mascot" />
-            <div className="offer-chip">10% off your first clean</div>
           </div>
         </section>
 
@@ -395,8 +394,8 @@ export default function App() {
 
         <section id="book" className="book">
           <div className="book-card reveal">
-            <p className="eyebrow">Special offer</p>
-            <h2>10% off your first clean.</h2>
+            <p className="eyebrow">Book now</p>
+            <h2>Ready for a tidy home?</h2>
             <p className="lede">
               Message The Tidy Bee on WhatsApp to book. She’ll confirm timing, extras, and a
               price that fits the house.
